@@ -6,11 +6,11 @@ import { useRouter } from "next/navigation";
 function Header() {
   const router = useRouter();
   return (
-    <nav>
-      <ul className="flex">
+    <nav className="bg-slate-400 text-white">
+      <ul className="flex justify-center gap-3 leading-10">
         <li>
           Services
-          <ul>
+          <ul className="absolute p-3 text-black">
             <li>
               <Link href="/services/productResearch">Product Research</Link>
             </li>
