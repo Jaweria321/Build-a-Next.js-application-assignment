@@ -1,7 +1,7 @@
 import React from "react";
 
 function ProductDesign() {
-  return <div>ProductDesign Page</div>;
+  return <main>ProductDesign Page</main>;
 }
 
 export default ProductDesign;

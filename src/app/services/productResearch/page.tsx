@@ -1,7 +1,7 @@
 import React from "react";
 
 function ProductResearch() {
-  return <div>Product Research Page</div>;
+  return <main>Product Research Page</main>;
 }
 
 export default ProductResearch;

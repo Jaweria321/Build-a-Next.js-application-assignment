@@ -1,7 +1,7 @@
 import React from "react";
 
 function ProductDevelopment() {
-  return <div>ProductDevelopment Page</div>;
+  return <main>ProductDevelopment Page</main>;
 }
 
 export default ProductDevelopment;

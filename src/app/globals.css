@@ -18,9 +18,11 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  height: 100vh;
 }
-
+main {
+  padding-top: 180px;
+  text-align: center;
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;

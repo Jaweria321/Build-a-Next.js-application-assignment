@@ -7,10 +7,10 @@ function Header() {
   const router = useRouter();
   return (
     <nav className="bg-slate-400 text-white">
-      <ul className="flex justify-center gap-3 leading-10">
+      <ul className="flex justify-center gap-8 leading-10">
         <li>
           Services
-          <ul className="absolute p-3 text-black">
+          <ul className="absolute p-3 text-black shadow-xl">
             <li>
               <Link href="/services/productResearch">Product Research</Link>
             </li>
